@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "8",
 
   // Services
   services: [
@@ -79,9 +79,14 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Ray Nicholls", rating: 5, text: "We engaged Mark and his team at Surrey Hills Landscaping to construct a patio and paths running both sides of our house. He did a fantastic job, and we are extremely pleased with the result. We communicated regularly, which I felt was …  ", date: "7 years ago" },
+    { name: "Cammie Czuchnicki", rating: 5, text: "A hard working and professional landscaping team who are a pleasure to work alongside. I have enjoyed planting up some of some of their fabulous gardens. Highly recommend.  ", date: "2 years ago" },
+    { name: "Jim Sheather", rating: 5, text: "I can highly recommend Mark and his team at Surrey Hills Landscaping. They provided ideas and completely transformed our garden with a great new patio. The quality of work was excellent, and was completed within the timeframes anticipated. I wouldn't", date: "7 years ago" },
+    { name: "Tabitha Northrup", rating: 5, text: "The team at Surrey Hills Landscapes are professional and knowledgeable and just as importantly, friendly and approachable.  They always offer excellent design advice and deliver a really flawless and unique result.  They also delivered on time and on", date: "3 years ago" },
+    { name: "Rachel Hahn", rating: 5, text: "This was an extremely happy experience. From quote to completion was reliable, friendly, cost effective and a pleasure to have the team on site. We have a beautiful terrace that has transformed our garden. I recommend Mark and his team wholeheartedly", date: "4 years ago" },
+    { name: "Kieran Mccloud", rating: 5, text: "What a pleasure.  Surrey Hills Landscaping were fantastic from start to finish and can't recommend them highly enough.  From design to completion, the Surrey Hills team were professional and friendly with superb workmanship.  A great experience, an o", date: "Edited 8 years ago" },
+    { name: "Tim Moxon", rating: 5, text: "We used Surrey Hills Landscaping to do a number of renovations to our outdoor areas including some paving, building a wall and building a shed. They were very creative, coming up with ideas and implementing our plans better than we'd …  ", date: "13 years ago" },
+    { name: "David Atkinson", rating: 5, text: "I can only offer a review of my contact with this company as they never actually carried out any work. I emailed to discuss a quote …  ", date: "Edited 7 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
